@@ -1,6 +1,6 @@
 # Members
 ## Adding new functionality
-We will be writing functionality using Test Driven Development, in which all functionality that can be unit tested should be unit tested.
+We will be writing functionality using [Test Driven Development](https://www.agilealliance.org/glossary/tdd/), in which all functionality that can be unit tested should be unit tested.
 
 ``Branch naming format: <username>/issue-<issue_number>``
 1. Create a new branch according to the issue number
@@ -10,7 +10,7 @@ We will be writing functionality using Test Driven Development, in which all fun
     - or ``git checkout -b <branch_name>``
     - **Never commit directly to master. All pull requests should be reviewed before merging into master**
 1. Only make changes toward the ticket in that branch. If additional functionality needs to be added, make a new ticket or, if related, add info to original ticket.
-1. Before a commit can be reviewed, make sure to add appropriate tests to for the added functionality and make sure these tests are passing. Also make sure your code is appropriately documented, for better readability. *ToDo: Add link for test driven design info here*
+1. Before a commit can be reviewed, make sure to [add appropriate tests](https://docs.wpilib.org/en/stable/docs/software/wpilib-tools/robot-simulation/unit-testing.html?highlight=testing) to for the added functionality and make sure these tests are passing. Also make sure your code is appropriately documented, for better readability.
     - Commit messages take the form of ``git commit -m "<type>: <description>"``
     - Current types: feat, doc, fix, test
     - For more information of commit syntax, click [here](https://www.conventionalcommits.org/en/v1.0.0/)
